@@ -1,5 +1,5 @@
 #include  <iostream>
-using namespace std;
+using namespace std;  // New insertion
 int main(){
 	int n;
 	cout << "Enter number ";
@@ -12,5 +12,5 @@ int main(){
 		fact = fact * i;
 	}
 	cout<< fact<<endl;
-return 0;
+return 1;
 }
